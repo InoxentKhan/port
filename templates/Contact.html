@@ -1,0 +1,35 @@
+{% block Head %}
+     <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+{% endblock %}
+
+{% block title  %}
+
+{% endblock title %}
+{% block body %}
+
+      <section class="contact" id="contact">
+        <h1>Let Us <span>Talk!</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+      </section>
+{% endblock body %}
