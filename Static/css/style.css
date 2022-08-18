@@ -174,8 +174,7 @@ nav ul li a:hover{
 }
 .div-1{
     top: 100px;
-    left: 850px;
-    left: 850px;
+    right:1000px;
 
 }
 .div-2{
@@ -186,6 +185,13 @@ nav ul li a:hover{
     bottom: 10px;
     right: 600px;
 }
+.div-4{
+     top:100px;
+    right: 600px;
+
+
+}
+
 .projects-div h3{
     font-size: 23px;
     padding:5px 30px;
